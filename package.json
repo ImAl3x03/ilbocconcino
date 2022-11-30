@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "serve": "vite preview"
   },
