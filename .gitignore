@@ -5,3 +5,9 @@ node_modules
 
 #WebStorm configuration folder
 /.idea
+
+#Log file
+*.log
+
+#ENV file
+*.env
