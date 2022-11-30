@@ -1,34 +1,72 @@
-## Usage
+# Il bocconcino bar - website
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+![Version](https://img.shields.io/badge/Version-0.1-brightgreen)
+![Author](https://img.shields.io/badge/Author-Alex%20Di%20Maria-blue)
+[![Website fakesite.invalid](https://img.shields.io/website-up-down-green-red/http/fakesite.invalid.svg)](http://fakesite.invalid/)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+![Language](https://img.shields.io/badge/Language-TypeScript-007acc)
+![Server](https://img.shields.io/badge/Server-Azure-008AD7)
+![Container](https://img.shields.io/badge/Container-Docker-0db7ed)
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+---
+
+## [ilbocconcino.azurewebsites.net](https://ilbocconcino.azurewebsites.net/)
+
+---
+
+## Description
+
+These website is developed for the bar "Il bocconcino". It's a landing page to present it.
+
+You can modify whatever you want. Please fork this repo and open a pull request. If the changes are valid I'll merge
+it as soon as possible
+
+The bar is situated inside *engineering F pole* of Pisa University
+
+---
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm dev` or `npm start`
+### `yarn`
 
-Runs the app in the development mode.<br>
+Install all the required node dependencies
+
+### `yarn dev` or `yarn start`
+
+Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
+The page will reload if you make edits.<br />
 
-### `npm run build`
+---
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+## Extra tools
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Docker
 
-## Deployment
+It's also configured a Dockerfile. You can use Docker instead of classic node script. <br />
+If you are practice with it, you can also use it for development environment.
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+### Deployment
+
+This repository is configured with a CI/CD pipeline to the server. <br />
+To update the production environment just push the code on the master branch.
+
+For more information please visit [Azure](https://azure.microsoft.com/it-it/) website at the following link. <br />
+Or see the [Azure documentation](https://learn.microsoft.com/it-it/azure/?product=popular) ah the following link
+
+You **mustn't** modify the *Dockerfile* or the *.yml* pipeline. <br />
+The deployment shouldn't go in the right way.
+
+---
+
+Made by [Alessandro Di Maria](https://www.github.com/ImAl3x03)
+
+## License
+This website is protected under **BSD 2-Clause License**
+<br>
+&copy; `Alessandro Di Maria` `2022-2023`
